@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/qie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name" />
+
+    <com.example.imgzoom.DragScaleView
+        android:id="@+id/drrr"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:background="#12000000"
+        android:clickable="true"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints" />
+
+    <com.example.imgzoom.DewPP
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:adjustViewBounds="true"
+        android:background="#2a000000"
+        android:scaleType="matrix"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:background="#ff00"-->
+    <!--android:layout_height="200dp">-->
+
+    <com.example.imgzoom.Logs
+android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#12000000"
+        android:orientation="vertical"></com.example.imgzoom.Logs>
+    <!--</LinearLayout>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ImgZoom</string>
+    <string name="button_name"  tools:ignore="ExtraTranslation">afasf</string>
+</resources>
